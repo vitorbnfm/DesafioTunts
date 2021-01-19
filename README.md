@@ -2,15 +2,13 @@
 
 <p>A simple JavaScript application  </p>
 
-### Pré-requisitos
-
-# Instale as dependências
+## Instale as dependências
 $ npm install
 
-# Execute a o script
+## Execute a o script
 $ npm start
  
-# Link para a planilha 
+## Link para a planilha 
 
-(https://docs.google.com/spreadsheets/d/1OB0mnUo0TkHNEj9_0VH53jGIS9EGwDWMYqHyxKL3iYc/edit?usp=sharing)
+https://docs.google.com/spreadsheets/d/1OB0mnUo0TkHNEj9_0VH53jGIS9EGwDWMYqHyxKL3iYc/edit?usp=sharing
 
