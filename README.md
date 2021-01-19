@@ -1,14 +1,14 @@
 # Tunts challenge!
 
-<p>A simple JavaScript application  </p>
+<p>A simple application to calculate students' grade using node.js and the Google Sheets API </p>
 
-## Instale as dependências
+## Install
 $ npm install
 
-## Execute a o script
+## Run
 $ npm start
  
-## Link para a planilha 
+## Google Spreadsheet
 
 [Engenharia de Software - Desafio Vitor Bonfim](https://docs.google.com/spreadsheets/d/1OB0mnUo0TkHNEj9_0VH53jGIS9EGwDWMYqHyxKL3iYc/edit?usp=sharing)
 
