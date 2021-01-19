@@ -1,6 +1,6 @@
 # Tunts challenge!
 
-<p>A simple application to calculate students' grade using node.js and the Google Sheets API </p>
+<p>An easy application to calculate the students' grade in node.js with Google Sheets API </p>
 
 ## Install
 $ npm install
