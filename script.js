@@ -16,7 +16,6 @@ async function accessSpreadsheet() {
     await doc.loadInfo();
     const sheet = doc.sheetsByIndex[0];
     await sheet.loadCells();
-    console.log(sheet.cellStats);
     const row = await sheet.getRows();
     console.log(row.length)
 
@@ -53,23 +52,23 @@ async function accessSpreadsheet() {
         if (average < 50) {
             situation.value = 'Reprovado por nota';
             requiredGrade.value = 0;
-            console.log(`Reprovado por nota`);
+            console.log('Reprovado por nota');
         }
         else if (average >= 50 && average < 70) {
             situation.value = 'Exame Final';
             const grade = 100 - average;
             requiredGrade.value = grade;
-            console.log(`Necessario exame final`);
+            console.log('Necessario exame final');
         }
         else if (average >= 70) {
             situation.value = 'Aprovado';
             requiredGrade.value = 0;
-            console.log(`Aprovado`);
+            console.log('Aprovado');
         }
         if (attendance.value > 15) {
             situation.value = 'Reprovado por Falta';
             requiredGrade.value = 0;
-            console.log(`Reprovado por Falta`);
+            console.log('Reprovado por Falta');
         }
         console.log('--------------------------------');
         await sheet.saveUpdatedCells();
