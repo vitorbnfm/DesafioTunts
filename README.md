@@ -1,10 +1,8 @@
-# Desafio Tunts!
+# Tunts challenge!
 
-## Descrição do Projeto
-<p align="center">Escrever uma breve descrição</p>
+<p>A simple JavaScript application  </p>
 
 ### Pré-requisitos
-
 
 # Instale as dependências
 $ npm install
@@ -12,5 +10,7 @@ $ npm install
 # Execute a o script
 $ npm start
  
- 
+# Link para a planilha 
+
+(https://docs.google.com/spreadsheets/d/1OB0mnUo0TkHNEj9_0VH53jGIS9EGwDWMYqHyxKL3iYc/edit?usp=sharing)
 
